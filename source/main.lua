@@ -3,6 +3,7 @@ local function SetGraphicsSettings()
 	rfg.Terrain.FadeEnd = 1500
 	rfg.Shadows.ShadowMapMaxDist = 200
 	rfg.Shadows.TerrainShadowMaxDist = 1000
+	rfg.Hdr.BloomSuperSoft = true
 	rfg.SetFarClip(1500)
 	rfg.SetHighLodFarClip(1500)
 end
